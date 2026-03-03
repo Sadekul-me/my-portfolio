@@ -2,90 +2,110 @@
   <img src="Sadekul%20Islam.png" alt="Sadekul Islam" width="1280" height="640"/>
 </p>
 
-<h1 align="center">Sadekul Islam (Lì Ào - 利奥)</h1>
-<p align="center">👨‍💻 Enthusiastic Software Developer | Full-Stack & Creative Problem Solver</p>
+<h1 align="center">Sadekul Islam - Software Engineer</h1>
 
----
-
-## 📖 About Me
-I am an enthusiastic software developer with a passion that spans both frontend and backend development. My love for technology has led me to explore **full-stack development**, database management, and software architecture. I believe technology has the power to simplify lives and open new possibilities in the digital world.  
-
-I am constantly **learning new things**, finding solutions through creative thinking, and improving my skills. In the future, I aspire to work with **international software companies** to enhance my expertise and contribute to the advancement of the world through technology.  
-
-**💡 My Belief:** Technology is not just code; it’s an infinite world of creativity. 🚀
-
----
-
-## 📫 Contact Me
-| Platform | Link |
-| -------- | ---- |
-| Email | [sadekul.dev@gmail.com](mailto:sadekul.dev@gmail.com) |
-| GitHub | [github.com/Sadekul-me](https://github.com/Sadekul-me) |
-| LinkedIn | [linkedin.com/in/sadekul-me](https://www.linkedin.com/in/sadekul-me/) |
-| Twitter | [x.com/SadekulDev](https://x.com/SadekulDev) |
-| Facebook | [facebook.com/sadekul.dev](https://www.facebook.com/sadekul.dev) |
-| Phone | +86 132 7627 5772 |
-| Address | Taihu Campus, Wuxi University of Technology, Wuxi, China |
-
----
-
-## 🛠 Skills
-**Programming & Development:**  
-`C`, `C++`, `C#`, `HTML`, `CSS`, `JavaScript`, `TypeScript`, `React`, `Next JS`, `Node.js`, `Redux`, `NestJS`, `Tailwind CSS`, `Bootstrap`, `ViteJS`, `.NET`, `.NET Core`, `MySQL`, `MSSQL`, `Git`, `Linux`
-
-**Design & UI/UX:**  
-`Figma`, `Adobe XD`, `Illustrator`, `Canva`, `Photoshop`, `PicsArt`, `Lightroom`
-
-**Multimedia & Creative:**  
-`Premiere Pro`, `After Effects`, `Adobe Audition`, `Microsoft Office`
-
----
-
-## 🎯 Current Focus / Goal
-- Master **full-stack development** and software architecture  
-- Practice **DSA** and **C/C++/OOP concepts**  
-- Build impactful projects for my portfolio  
-- Prepare for opportunities in **global software companies**  
-
----
-
-## 💼 Experience
-- **Frontend Developer (Internship)** – ICT Bangladesh (USA conducted) | Jan 28 – Apr 30, 2025  
-- **Figma Designer (Freelance / Personal Projects)** | Jun 2024 – Present  
-- **Self-Employed Developer** – Code and build personal projects | Jan 2024 – Present  
-
----
-
-## 🎓 Education
-- **Bachelor of Software Engineering** – Wuxi University of Technology, China | 2025–2029  
-- **Software Engineering Course** – ICT Bangladesh (USA conducted) | 2024–2025  
-- **Higher Secondary Certificate (HSC)** – Domar Government College | 2021–2023  
-
----
-
-## 💻 Projects
-| Name | Role | Description | Tools |
-| ---- | ---- | ----------- | ----- |
-| E-Commerce Web Application | Frontend Developer Intern | Full-stack e-commerce platform with authentication, cart, orders. Frontend with React, Redux, Tailwind CSS; Backend with Node.js, Express, MongoDB. | React, TypeScript, Redux, Tailwind CSS, CSS Modules, AI API, GitHub, Open AI |
-| AI-Based Frontend Project | Frontend Developer | Internship project at ICT Bangladesh, AI-based frontend application using React & JavaScript. Responsive UI, dynamic features via GitHub collaboration. | React, Node.js, Express, MSSQL, Visual Studio, JWT, Bootstrap |
-| Modern House Design & Consultants | Frontend Developer | Fully responsive website for house consultancy. Frontend with JSX & CSS, YouTube video gallery, contact/order form with email functionality. | React (JSX), Plain CSS, Figma, EmailJS |
-| 3D Realistic Visualization Project | Frontend Developer & 3D Visualizer | 3D architectural visualization web app. React + JSX, Tailwind CSS, Redux, Three.js integration for interactive 3D models. | React, JSX, Tailwind CSS, Redux, Three.js |
-
----
-
-## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sadekul-me&show_icons=true&theme=radical" alt="Sadekul's GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadekul-me&layout=compact&theme=radical" alt="Top Languages"/>
+  <strong>Creative Full-Stack Developer | Passionate about Frontend & Backend | Lifelong Learner</strong>
+</p>
+
+<p align="center">
+  <a href="mailto:sadekul.dev@gmail.com">📧 Email</a> •
+  <a href="https://github.com/Sadekul-me">💻 GitHub</a> •
+  <a href="https://www.linkedin.com/in/sadekul-me/">🔗 LinkedIn</a> •
+  <a href="https://x.com/SadekulDev">🐦 Twitter</a> •
+  <a href="https://www.facebook.com/sadekul.dev">📘 Facebook</a>
 </p>
 
 ---
 
-## 🌐 Portfolio Website
-[Visit my portfolio](https://sadekulislam.netlify.app)
+## 👨‍💻 About Me
+
+I am an enthusiastic software developer with a passion for both **frontend** and **backend development**.  
+I explore full-stack development, database management, and software architecture.  
+I believe technology can simplify lives and create new possibilities.  
+
+- **Chinese Name:** Lì Ào (利奥)  
+- **Phone:** +8613276275772  
+- **Address:** Taihu Campus, Wuxi University of Technology, Wuxi, China  
+- **Current Status:** 🎓 Pursuing Bachelor of Software Engineering at Wuxi University of Technology (2025-2029)  
+
+> 💡 **Belief:** Technology is not just code; it’s an infinite world of creativity. 🚀
 
 ---
 
-**⚡ Fun Fact:** I love **coding**, **3D visualization**, and exploring **new technologies** every day!  
+## 🛠 Skills
+
+**Programming & Frontend:**  
+C, C++, C#, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, ViteJS, Bootstrap
+
+**Backend & Database:**  
+Node.js, Express, NestJS, MSSQL, MySQL, .NET, .NET Core, Linux
+
+**Design & Tools:**  
+Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro, After Effects, Adobe Audition, Microsoft Office, Git
 
 ---
+
+## 💼 Projects
+
+### 1. E-Commerce Web Application
+- **Role:** Frontend Developer Intern  
+- **Description:** Full-stack e-commerce platform with user auth, product listings, shopping cart, and order management.  
+- **Tools:** React, TypeScript, Redux, Tailwind CSS, CSS Modules, AI API, GitHub, Open AI  
+
+### 2. AI-Based Frontend Project
+- **Role:** Frontend Developer  
+- **Description:** Internship project at ICT Bangladesh, building AI-based frontend app with React & JS. Collaborated via GitHub to implement responsive UI and dynamic features.  
+- **Tools:** React, Node.js, Express, MSSQL, Visual Studio, JWT, Bootstrap  
+
+### 3. Modern House Design and Consultants
+- **Role:** Frontend Developer  
+- **Description:** Responsive website for house design & consultancy firm, with YouTube gallery & contact form.  
+- **Tools:** React (JSX), Plain CSS, Figma (Design), EmailJS (Contact Form)  
+
+### 4. 3D Realistic Visualization Project
+- **Role:** Frontend Developer & 3D Visualizer  
+- **Description:** 3D visualization web app to showcase architectural models, using React, Redux, Tailwind CSS & Three.js.  
+- **Tools:** React, JSX, Tailwind CSS, Redux, Three.js  
+
+---
+
+## 🎓 Education
+
+- **Bachelor of Software Engineering** – Wuxi University of Technology (2025-2029)  
+- **Software Engineering** – ICT Bangladesh (Conducted by USA) (2024-2025)  
+- **Higher Secondary Certificate** – Domar Government College (2021-2023)  
+
+---
+
+## 🏢 Experience
+
+- **Frontend Developer** – ICT Bangladesh (28 Jan – 30 Apr 2025)  
+- **Figma Designer** – Freelance / Personal Projects (Jun 2024 – Present)  
+- **Self-Employed** – Daily coding and project building (Jan 2024 – Present)  
+
+---
+
+## 📊 GitHub Stats
+
+![Sadekul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sadekul-me&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sadekul-me&layout=compact&theme=radical)  
+
+---
+
+## 🌐 Portfolio
+
+Check out my portfolio: [https://sadekulislam.netlify.app](https://sadekulislam.netlify.app)
+
+---
+
+## ⚡ Contact Me
+
+- **Email:** sadekul.dev@gmail.com  
+- **Phone:** +8613276275772  
+- **LinkedIn:** [Sadekul Islam](https://www.linkedin.com/in/sadekul-me/)  
+- **Twitter:** [@SadekulDev](https://x.com/SadekulDev)  
+- **Facebook:** [Sadekul.Dev](https://www.facebook.com/sadekul.dev)
+
+---
+
