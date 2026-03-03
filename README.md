@@ -20,7 +20,7 @@
 
 ## 👨‍💻 About Me
 
-I am an enthusiastic software developer with a passion for both **frontend** and **backend development**.  
+I am an enthusiastic software developer with a passion for **frontend** and **backend development**.  
 I explore full-stack development, database management, and software architecture.  
 I believe technology can simplify lives and create new possibilities.  
 
@@ -35,11 +35,14 @@ I believe technology can simplify lives and create new possibilities.
 
 ## 🛠 Skills
 
-**Programming & Frontend:** C, C++, C#, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, ViteJS, Bootstrap
+**Programming & Frontend:**  
+C, C++, C#, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, ViteJS, Bootstrap  
 
-**Backend & Database:** Node.js, Express, NestJS, MSSQL, MySQL, .NET, .NET Core, Linux
+**Backend & Database:**  
+Node.js, Express, NestJS, MSSQL, MySQL, .NET, .NET Core, Linux  
 
-**Design & Tools:** Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro, After Effects, Adobe Audition, Microsoft Office, Git
+**Design & Tools:**  
+Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro, After Effects, Adobe Audition, Microsoft Office, Git  
 
 ---
 
@@ -48,7 +51,7 @@ I believe technology can simplify lives and create new possibilities.
 ### 1. E-Commerce Web Application
 - **Role:** Frontend Developer Intern  
 - **Description:** Full-stack e-commerce platform with user auth, product listings, shopping cart, and order management.  
-- **Tools:** React, TypeScript, Redux, Tailwind CSS, CSS Modules, AI API, GitHub, Open AI  
+- **Tools:** React, TypeScript, Redux, Tailwind CSS, CSS Modules, AI API, GitHub, OpenAI  
 
 ### 2. AI-Based Frontend Project
 - **Role:** Frontend Developer  
@@ -58,7 +61,7 @@ I believe technology can simplify lives and create new possibilities.
 ### 3. Modern House Design and Consultants
 - **Role:** Frontend Developer  
 - **Description:** Responsive website for house design & consultancy firm, with YouTube gallery & contact form.  
-- **Tools:** React (JSX), Plain CSS, Figma (Design), EmailJS (Contact Form)  
+- **Tools:** React (JSX), CSS, Figma (Design), EmailJS (Contact Form)  
 
 ### 4. 3D Realistic Visualization Project
 - **Role:** Frontend Developer & 3D Visualizer  
@@ -85,11 +88,9 @@ I believe technology can simplify lives and create new possibilities.
 
 ## 📊 GitHub Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sadekul-me&show_icons=true&theme=radical" alt="Sadekul's GitHub Stats" />
-</p>
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadekul-me&layout=compact&theme=radical" alt="Top Languages" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sadekul-me&show_icons=true&theme=tokyonight" alt="Sadekul's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadekul-me&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 
 ---
@@ -107,5 +108,3 @@ Check out my portfolio: [https://sadekulislam.netlify.app](https://sadekulislam.
 - **LinkedIn:** [Sadekul Islam](https://www.linkedin.com/in/sadekul-me/)  
 - **Twitter:** [@SadekulDev](https://x.com/SadekulDev)  
 - **Facebook:** [Sadekul.Dev](https://www.facebook.com/sadekul.dev)
-
----
