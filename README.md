@@ -35,14 +35,11 @@ I believe technology can simplify lives and create new possibilities.
 
 ## 🛠 Skills
 
-**Programming & Frontend:**  
-C, C++, C#, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, ViteJS, Bootstrap
+**Programming & Frontend:** C, C++, C#, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, ViteJS, Bootstrap
 
-**Backend & Database:**  
-Node.js, Express, NestJS, MSSQL, MySQL, .NET, .NET Core, Linux
+**Backend & Database:** Node.js, Express, NestJS, MSSQL, MySQL, .NET, .NET Core, Linux
 
-**Design & Tools:**  
-Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro, After Effects, Adobe Audition, Microsoft Office, Git
+**Design & Tools:** Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro, After Effects, Adobe Audition, Microsoft Office, Git
 
 ---
 
@@ -88,8 +85,12 @@ Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro
 
 ## 📊 GitHub Stats
 
-![Sadekul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sadekul-me&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sadekul-me&layout=compact&theme=radical)  
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sadekul-me&show_icons=true&theme=radical" alt="Sadekul's GitHub Stats" />
+</p>
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadekul-me&layout=compact&theme=radical" alt="Top Languages" />
+</p>
 
 ---
 
@@ -108,4 +109,3 @@ Check out my portfolio: [https://sadekulislam.netlify.app](https://sadekulislam.
 - **Facebook:** [Sadekul.Dev](https://www.facebook.com/sadekul.dev)
 
 ---
-
