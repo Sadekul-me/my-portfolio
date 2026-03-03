@@ -30,6 +30,10 @@ export const metadata = {
   authors: [{ name: "Sadekul Islam" }],
   creator: "Sadekul Islam",
   publisher: "Sadekul Islam",
+  // Google Search Console Verification
+  verification: {
+    google: "qHQ0OYPUhMTRuAO8OeJkL3rMVxRX5RP5ls8WgLaJuSY",
+  },
   openGraph: {
     title: "Sadekul Islam | Software Engineer Portfolio",
     description: "Creative Full-Stack Developer & Software Engineering student at Wuxi University of Technology.",
