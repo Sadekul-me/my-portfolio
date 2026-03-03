@@ -20,15 +20,11 @@
 
 ## 👨‍💻 About Me
 
-I am a passionate software developer exploring **full-stack development, database management, and software architecture**.  
-I strive to build solutions that simplify life and unlock new possibilities.  
+I am an enthusiastic software developer with a passion for both **frontend and backend development**. My journey in technology has led me to explore **full-stack development, database management, and software architecture**. I believe technology has the power to **simplify lives and unlock new possibilities** in the digital world.  
 
-- **Chinese Name:** Lì Ào (利奥)  
-- **Phone:** +86 132 7627 5772  
-- **Location:** Taihu Campus, Wuxi University of Technology, Wuxi, China  
-- **Current Status:** 🎓 Bachelor of Software Engineering (2025–2029)  
+I thrive on **creative problem-solving**, continuous learning, and skill improvement. My aspiration is to collaborate with **international software companies**, enhancing my expertise while contributing to global technological advancement.  
 
-> 💡 **Belief:** Technology is not just code; it’s an infinite world of creativity. 🚀
+> 👨‍💻 **Belief:** Technology is not just code; it’s an infinite world of creativity. 🚀  
 
 ---
 
