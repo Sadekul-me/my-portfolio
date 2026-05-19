@@ -1,42 +1,61 @@
-// app/layout.js (Next.js 13+ RootLayout)
+// app/layout.js
 
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 import Footer from "./components/footer";
-import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
+import ScrollToTop from "./components/helper/scroll-to-top";
 
-import "./css/card.scss";
+import "react-toastify/dist/ReactToastify.css";
 import "./css/globals.scss";
+import "./css/card.scss";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
 
-// 🚀 HIGHLY OPTIMIZED SEO METADATA
+const siteUrl = "https://sadekulislam.netlify.app";
+const siteName = "Sadekul Islam Portfolio";
+
 export const metadata = {
-  title: "Sadekul Islam (Lì Ào) - Software Engineering Student & HCI Enthusiast",
+  metadataBase: new URL(siteUrl),
+
+  title: {
+    default: "Sadekul Islam (Li Ao) | Software Engineer",
+    template: "%s | Sadekul Islam",
+  },
+
   description:
-    "Sadekul Islam (Lì Ào) is a Software Engineering student in China focused on Human-Computer Interaction, AI systems, and computer vision projects. Creator of the Lì Ào Engine.",
+    "Sadekul Islam (Li Ao) is a Software Engineering student in China focused on AI systems, Human-Computer Interaction, OS Automation, and modern full-stack development.",
+
   keywords: [
     "Sadekul Islam",
-    "Sadekul Islam Sadik",
-    "Lì Ào",
+    "Sadik",
+    "Li Ao",
     "利奥",
-    "Software Engineering Student",
-    "HCI Developer",
-    "Bangladeshi Developer",
-    "Software Engineering student in China",
-    "Wuxi University of Technology",
-    "Gesture Controlled AI",
+    "Software Engineer",
+    "AI Developer",
+    "Autonomous AI",
     "Human Computer Interaction",
-    "Computer Vision Project",
-    "AI Developer Student",
-    "sadekul-me",
-    "sadekulislam.me"
+    "HCI",
+    "OS Automation",
+    "InWuxi",
+    "Wuxi University of Technology",
+    "Next.js Developer",
+    "React Developer",
+    "Bangladeshi Developer",
   ],
-  authors: [{ name: "Sadekul Islam" }],
+
+  authors: [
+    {
+      name: "Sadekul Islam",
+      url: siteUrl,
+    },
+  ],
+
   creator: "Sadekul Islam",
   publisher: "Sadekul Islam",
 
@@ -44,106 +63,127 @@ export const metadata = {
     google: "qHQ0OYPUhMTRuAO8OeJkL3rMVxRX5RP5ls8WgLaJuSY",
   },
 
+  alternates: {
+    canonical: "/",
+  },
+
   openGraph: {
-    title: "Sadekul Islam | Software Engineering Student",
+    title: "Sadekul Islam (Li Ao) | Software Engineer",
     description:
-      "Creative developer focused on AI, HCI, and computer vision systems.",
-    url: "https://sadekulislam.netlify.app",
-    siteName: "Sadekul Islam Portfolio",
+      "Software Engineering student focused on AI systems, automation, HCI, and scalable web technologies.",
+    url: siteUrl,
+    siteName,
+    locale: "en_US",
+    type: "website",
+
     images: [
       {
         url: "/Sadekul Islam.png",
         width: 1280,
         height: 640,
-        alt: "Sadekul Islam - Developer Portfolio",
+        alt: "Sadekul Islam Portfolio",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Sadekul Islam | Developer Portfolio",
+    title: "Sadekul Islam (Li Ao) | Software Engineer",
     description:
-      "Software Engineering student focused on AI, HCI & Computer Vision.",
-    images: ["/Sadekul Islam.png"],
+      "AI systems, automation, HCI, and modern full-stack development.",
     creator: "@SadekulDev",
+
+    images: ["/Sadekul Islam.png"],
   },
 
   robots: {
     index: true,
     follow: true,
+
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 
   icons: {
     icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+
+  name: "Sadekul Islam",
+
+  alternateName: ["Sadik", "Li Ao", "利奥"],
+
+  url: siteUrl,
+
+  image: `${siteUrl}/Sadekul Islam.png`,
+
+  jobTitle: "Software Engineer",
+
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Wuxi University of Technology",
+  },
+
+  memberOf: {
+    "@type": "Organization",
+    name: "InWuxi",
+  },
+
+  knowsAbout: [
+    "Software Engineering",
+    "Artificial Intelligence",
+    "Human-Computer Interaction",
+    "OS Automation",
+    "Computer Vision",
+    "Next.js",
+    "React",
+    "C++",
+    "JavaScript",
+    "Python",
+    "C#",
+    "SQL Server",
+  ],
+
+  sameAs: [
+    "https://github.com/sadekul-me",
+    "https://www.linkedin.com/in/sadekulislam-dev/",
+    "https://www.facebook.com/sadekulislam.me",
+    "https://x.com/sadekul_me",
+    "https://dev.to/sadekul-me",
+    "https://www.wikidata.org/wiki/Q138819606",
+  ],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* 🔥 JSON-LD Structured Data (Google Identity Graph Boost) */}
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-
-              name: "Sadekul Islam",
-              alternateName: ["Sadik", "Lì Ào", "利奥"],
-
-              url: "https://sadekulislam.netlify.app",
-
-              sameAs: [
-                "https://www.wikidata.org/wiki/Q138819606",
-                "https://github.com/sadekul-me",
-                "https://www.linkedin.com/in/sadekulislam-dev/",
-                "https://www.facebook.com/sadekulislam.me",
-                "https://x.com/sadekul_me",
-                "https://dev.to/sadekul-me"
-              ],
-
-              jobTitle: "Software Engineering Student & HCI Enthusiast",
-
-              alumniOf: {
-                "@type": "CollegeOrUniversity",
-                name: "Wuxi University of Technology",
-              },
-
-              "knowsAbout": [
-                "Software Engineering",
-                "Human-Computer Interaction",
-                "Artificial Intelligence",
-                "Computer Vision",
-
-                "C",
-                "C++",
-                "JavaScript",
-                "Python",
-
-                "React",
-                "C#",
-                "SQL",
-
-                "HTML",
-                "CSS",
-                "Tailwind CSS"
-              ],
-            }),
+            __html: JSON.stringify(structuredData),
           }}
         />
       </head>
 
       <body className={inter.className}>
-        {/* 🔔 Toast Notifications */}
-        <ToastContainer />
+        {/* Toast Notifications */}
+        <ToastContainer position="top-right" autoClose={3000} />
 
-        {/* 📱 Main Layout */}
-        <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
+        {/* Main Layout */}
+        <main className="relative mx-auto min-h-screen px-6 text-white sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
           <Navbar />
           {children}
           <ScrollToTop />
@@ -151,8 +191,10 @@ export default function RootLayout({ children }) {
 
         <Footer />
 
-        {/* 📊 Google Tag Manager */}
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+        {/* Google Tag Manager */}
+        {process.env.NEXT_PUBLIC_GTM && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+        )}
       </body>
     </html>
   );

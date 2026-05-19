@@ -2,6 +2,7 @@ export const skillsData = [
   'C',
   'C++',
   'C#',
+  'Python',
   'HTML',
   'CSS',
   'Javascript',
