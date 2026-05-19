@@ -1,4 +1,5 @@
 import { personalData } from "@/utils/data/personal-data";
+
 import AboutSection from "./components/homepage/about";
 import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
@@ -9,47 +10,59 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 // ==============================
-// Fetch Blogs with Fallback
+// Fetch Latest Blogs
 // ==============================
-async function getData() {
+async function getBlogs() {
   try {
-    const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
+    const response = await fetch(
+      `https://dev.to/api/articles?username=${personalData.devUsername}`,
+      {
+        next: {
+          revalidate: 3600, // 1 hour cache
+        },
+      }
+    );
 
-    if (!res.ok) {
-      throw new Error(`Dev.to API returned status ${res.status}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch blogs (${response.status})`);
     }
 
-    const data = await res.json();
+    const articles = await response.json();
 
-    // Filter only blogs with cover_image & shuffle randomly
-    const filtered = data
-      .filter(item => item?.cover_image)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 5); // optional: limit to 5 blogs
+    return articles
+      .filter((article) => article?.cover_image)
+      .slice(0, 6);
 
-    return filtered;
   } catch (error) {
-    console.error("Error fetching blogs:", error.message);
-    return []; // fallback: empty array
+    console.error("Blog Fetch Error:", error);
+
+    return [];
   }
 }
 
 // ==============================
-// Home Component
+// Home Page
 // ==============================
 export default async function Home() {
-  const blogs = await getData();
+  const blogs = await getBlogs();
 
   return (
-    <div suppressHydrationWarning>
+    <main suppressHydrationWarning>
       <HeroSection />
+
       <AboutSection />
+
       <Experience />
+
       <Skills />
+
       <Projects />
+
       <Education />
+
       <Blog blogs={blogs} />
+
       <ContactSection />
-    </div>
+    </main>
   );
 }
